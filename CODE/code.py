@@ -23,7 +23,7 @@ print("Ready!")
 
 while True:
     if not switch.value:
-        layout.write("tpqqpwt")
+        layout.write("YOURPASSWORD")
         keyboard.send(Keycode.ENTER)
         
         # Wait until released
